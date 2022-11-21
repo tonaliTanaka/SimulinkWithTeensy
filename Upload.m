@@ -1,8 +1,7 @@
 %Set names
 modelName = 'model'; 
-dirRoot = 'ProjectTemplate/';
-dirBuild = append(dirRoot, append(modelName, '_ert_rtw/'));
-dirPlt = append(dirRoot, 'src/');
+dirBuild = append(modelName, '_ert_rtw/');
+dirPlt = 'src/';
 dirArdLib = '/Users/xxxxxxx/Documents/MATLAB/SupportPackages/R2022a/toolbox/target/supportpackages/arduinobase/';
 
 %Set embedded coder
@@ -24,4 +23,4 @@ copyfile(append(dirArdLib, 'include/MW_arduino_digitalio.h'), dirPlt, 'f');
 copyfile(append(dirArdLib, 'src/MW_arduino_digitalio.cpp'), dirPlt, 'f');
 
 %Upload generated C-code to Teensy.
-system('pio run --target=upload')
+system('pio run --target=upload');
