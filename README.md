@@ -15,6 +15,10 @@
 
 In addition, I developed and used this project using macOS (PC: Mac mini 2018, CPU: 3.2 GHz 6-Core Intel Core i7, OS: Ventura).
 
+## Demo
+
+[![](https://img.youtube.com/vi/ls_1t-zNZ6A/0.jpg)](https://www.youtube.com/watch?v=ls_1t-zNZ6A)
+
 ## Usage
 1. Move the root directory of the project in MATLAB workspace.
 ![](img/root.jpg)
