@@ -1,0 +1,9 @@
+#include <Arduino.h>
+
+void MW_analogWrite(uint32_t pin, uint32_t value){
+  analogWrite(pin, value);
+}
+
+void MW_setAnalogFrequency(uint16_t pin,uint16_t prescaler,uint16_t period){
+  analogWriteFrequency(pin, prescaler);
+}
