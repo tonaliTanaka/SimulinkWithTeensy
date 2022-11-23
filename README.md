@@ -23,7 +23,7 @@ In addition, I developed and used this project using macOS (PC: Mac mini 2018, C
 ![](img/edit.jpg)
 
 3. After editing model.slx, run M-file of **Build** or **Upload**. When the files run, Simulink generates codes of the model.slx using Embedded Coder, then, the codes are sent to 'src/' directory. Then, Platform IO **Builds** or **Uploads** the codes for Teensy. In addition, SPI configure can be set in the M-files.
-![](img/upload.jpg)
+![](img/Upload.jpg)
 
 ## Features
 
